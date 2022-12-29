@@ -1673,7 +1673,7 @@ mark {
 }
 
 .text_shadow {
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0 0 10px black;
 }
 .text-justify {
   text-align: justify;

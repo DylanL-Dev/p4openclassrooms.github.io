@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  object-fit: cover;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -315,6 +319,19 @@ a:hover {
   margin: 0;
 }
 
+.barre {
+  transform: scale(1);
+  transition: all;
+  transition-duration: 400ms;
+  opacity: 0.7;
+}
+
+.barre:hover {
+  border-bottom: #f3976c solid 2px;
+  transform: scale(1.15);
+  opacity: 1;
+}
+
 .navbar .nav {
   padding-top: 2px;
   margin-right: -16px;
@@ -363,7 +380,7 @@ a:hover {
 }
 .keywords {
   color: #cccccc;
-  font-size: 1px;
+  font-size: 0px;
 }
 
 @media (min-width: 768px) {
@@ -563,10 +580,17 @@ a[data-lightbox]:hover::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+
   -webkit-transform: translateY(-50%);
+}
+a[data-lightbox] img {
+  transform: scale(1);
+  transition: all;
+  transition-duration: 400ms;
 }
 
 a[data-lightbox]:hover img {
+  transform: scale(1.1);
   opacity: 0.6;
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
@@ -714,6 +738,16 @@ p {
   padding: 20px;
 }
 
+.col-sm-3 {
+  transform: scale(1);
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.col-sm-3:hover {
+  transform: scale(1.25);
+}
+
 h2 {
   font-size: 22px;
   line-height: 1.4em;
@@ -790,12 +824,17 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
+  transform: scale(1);
+  transition: all;
+  transition-duration: 400ms;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
   color: #ffffff !important;
+
+  transform: scale(1.12);
 }
 
 .ltc-white {
@@ -939,6 +978,7 @@ h4 {
     -webkit-transform: none;
     -ms-transform: none;
   }
+
   .nav > li {
     margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -1071,4 +1111,13 @@ h4 {
     padding-left: 38px;
     font-size: 14px;
   }
+}
+.cne {
+  transform: scale(1);
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.cne:hover {
+  transform: scale(1.1);
 }
