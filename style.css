@@ -321,7 +321,7 @@ a:hover {
 
 .barre {
   transform: scale(1);
-  transition: all;
+  transition-property: all;
   transition-duration: 400ms;
   opacity: 0.7;
 }
@@ -1087,6 +1087,14 @@ h4 {
     padding-left: 38px;
     font-size: 14px;
   }
+  /*Social mobile*/
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  /*End Social mobile*/
 }
 
 @media (max-width: 400px) {
