@@ -1095,6 +1095,12 @@ h4 {
     padding: 20px;
   }
   /*End Social mobile*/
+
+    .barre:hover {
+    border-bottom: #f3976c solid 2px;
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 400px) {
