@@ -378,10 +378,7 @@ a:hover {
   position: relative;
   z-index: 2;
 }
-.keywords {
-  color: #cccccc;
-  font-size: 0px;
-}
+
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -596,6 +593,10 @@ a[data-lightbox]:hover img {
   animation-fill-mode: none;
 }
 
+#blocs-lightbox-close-btn {
+  background-color: transparent;
+}
+
 #lightbox-modal {
   display: flex;
   align-items: center;
@@ -631,7 +632,7 @@ a[data-lightbox]:hover img {
   border: none;
   line-height: 30px;
   padding: 0 9px 5px;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .close-lightbox:hover,
@@ -644,12 +645,11 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
   font-size: 20px;
-
   transition: all 0.2s ease-in-out;
   position: absolute;
   top: 45%;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 .next-lightbox {
@@ -1096,11 +1096,19 @@ h4 {
   }
   /*End Social mobile*/
 
-    .barre:hover {
+  /*img portfolio mobile*/
+  a[data-lightbox]:hover img {
+    transform: scale(1);
+  }
+  /*End img portfolio mobile*/
+
+  /*border-bottom mobile nav (menu)*/
+  .barre:hover {
     border-bottom: #f3976c solid 2px;
     transform: scale(1);
     opacity: 1;
   }
+  /*End border-bottom mobile nav (menu)*/
 }
 
 @media (max-width: 400px) {
