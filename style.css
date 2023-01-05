@@ -29,6 +29,7 @@ a:hover {
   width: 100%;
   z-index: 100000;
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  object-fit: cover;
 }
 
 .bloc {
@@ -97,6 +98,7 @@ a:hover {
 .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
+  object-fit: cover;
 }
 
 .b-parallax {
@@ -602,7 +604,6 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog {
-  width: 90%;
   max-width: 900px;
   margin: 0 auto 0;
 }
@@ -669,6 +670,7 @@ a[data-lightbox]:hover img {
   padding: 0;
   color: rgba(0, 0, 0, 0.5);
   background: none;
+  text-align: center;
 }
 
 h1,
@@ -859,18 +861,22 @@ h4 {
 
 .bg-dots-bg {
   background-image: url("img/dots-bg.png");
+  object-fit: cover;
 }
 
 .bg-lines-h2-bg {
   background-image: url("img/lines-h2-bg.png");
+  object-fit: cover;
 }
 
 .bg-banniere {
   background-image: url("img/agence-la-panthere.jpg");
+  object-fit: cover;
 }
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.bmp");
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {
@@ -1141,4 +1147,11 @@ h4 {
 
 .cne:hover {
   transform: scale(1.1);
+}
+
+.row_bloc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
