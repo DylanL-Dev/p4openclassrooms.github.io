@@ -1444,7 +1444,7 @@ img {
   display: block;
   max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 250px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
