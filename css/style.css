@@ -861,22 +861,22 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("/img/dots-bg.webp");
+  background-image: url("../img/dots-bg.webp");
   object-fit: cover;
 }
 
 .bg-lines-h2-bg {
-  background-image: url("/img/lines-h2-bg.webp");
+  background-image: url("../img/lines-h2-bg.webp");
   object-fit: cover;
 }
 
 .bg-banniere {
-  background-image: url("/img/agence-la-panthere.webp");
+  background-image: url("../img/agence-la-panthere.webp");
   object-fit: cover;
 }
 
 .bg-presentation {
-  background-image: url("/img/image-de-presentation.webp");
+  background-image: url("../img/image-de-presentation.webp");
   object-fit: cover;
 }
 
