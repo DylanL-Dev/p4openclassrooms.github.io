@@ -787,6 +787,9 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  max-width: 100%;
+  width: 320px;
+  height: auto;
 }
 
 .portfolio-row {
@@ -1106,6 +1109,12 @@ h4 {
   a[data-lightbox]:hover img {
     transform: scale(1);
   }
+
+  .img-responsive {
+    margin-left: auto;
+    margin-right: auto; /* center les img mobile*/
+  }
+
   /*End img portfolio mobile*/
 
   /*border-bottom mobile nav (menu)*/

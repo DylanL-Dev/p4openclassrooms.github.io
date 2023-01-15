@@ -104,6 +104,7 @@ sub {
 
 img {
   border: 0;
+ 
 }
 
 svg:not(:root) {
@@ -5298,6 +5299,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover {
     background-image: none;
   }
+
 }
 
 @media (min-width: 768px) {
