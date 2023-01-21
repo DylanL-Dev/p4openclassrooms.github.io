@@ -110,21 +110,6 @@ a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.d-bloc button:hover {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-  border-color: rgba(255, 255, 255, 0.9);
-}
-
-.d-bloc .divider-h span {
-  border-color: rgba(255, 255, 255, 0.2);
-}
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
