@@ -104,7 +104,6 @@ sub {
 
 img {
   border: 0;
- 
 }
 
 svg:not(:root) {
@@ -236,11 +235,11 @@ th {
   *,
   :after,
   :before {
-    color: #000 !important;
-    text-shadow: none !important;
-    background: 0 0 !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+    color: #000;
+    text-shadow: none;
+    background: 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
   a,
   a:visited {
@@ -269,7 +268,7 @@ th {
     page-break-inside: avoid;
   }
   img {
-    max-width: 100% !important;
+    max-width: 100%;
   }
   h2,
   h3,
@@ -286,21 +285,21 @@ th {
   }
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: #000 !important;
+    border-top-color: #000;
   }
   .label {
     border: 1px solid #000;
   }
   .table {
-    border-collapse: collapse !important;
+    border-collapse: collapse;
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #fff;
   }
   .table-bordered td,
   .table-bordered th {
-    border: 1px solid #ddd !important;
+    border: 1px solid #ddd;
   }
 }
 
@@ -5126,10 +5125,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
     box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
+    display: block;
+    height: auto;
     padding-bottom: 0;
-    overflow: visible !important;
+    overflow: visible;
   }
   .navbar-collapse.in {
     overflow-y: visible;
@@ -5299,7 +5298,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover {
     background-image: none;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -5447,10 +5445,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-left {
-    float: left !important;
+    float: left;
   }
   .navbar-right {
-    float: right !important;
+    float: right;
     margin-right: -15px;
   }
   .navbar-right ~ .navbar-right {
@@ -8102,19 +8100,19 @@ button.close {
 }
 
 .pull-right {
-  float: right !important;
+  float: right;
 }
 
 .pull-left {
-  float: left !important;
+  float: left;
 }
 
 .hide {
-  display: none !important;
+  display: none;
 }
 
 .show {
-  display: block !important;
+  display: block;
 }
 
 .invisible {
@@ -8130,7 +8128,7 @@ button.close {
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .affix {
@@ -8145,7 +8143,7 @@ button.close {
 .visible-md,
 .visible-sm,
 .visible-xs {
-  display: none !important;
+  display: none;
 }
 
 .visible-lg-block,
@@ -8160,221 +8158,221 @@ button.close {
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block {
-  display: none !important;
+  display: none;
 }
 
 @media (max-width: 767px) {
   .visible-xs {
-    display: block !important;
+    display: block;
   }
   table.visible-xs {
-    display: table !important;
+    display: table;
   }
   tr.visible-xs {
-    display: table-row !important;
+    display: table-row;
   }
   td.visible-xs,
   th.visible-xs {
-    display: table-cell !important;
+    display: table-cell;
   }
 }
 
 @media (max-width: 767px) {
   .visible-xs-block {
-    display: block !important;
+    display: block;
   }
 }
 
 @media (max-width: 767px) {
   .visible-xs-inline {
-    display: inline !important;
+    display: inline;
   }
 }
 
 @media (max-width: 767px) {
   .visible-xs-inline-block {
-    display: inline-block !important;
+    display: inline-block;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
-    display: block !important;
+    display: block;
   }
   table.visible-sm {
-    display: table !important;
+    display: table;
   }
   tr.visible-sm {
-    display: table-row !important;
+    display: table-row;
   }
   td.visible-sm,
   th.visible-sm {
-    display: table-cell !important;
+    display: table-cell;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-block {
-    display: block !important;
+    display: block;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline {
-    display: inline !important;
+    display: inline;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline-block {
-    display: inline-block !important;
+    display: inline-block;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
-    display: block !important;
+    display: block;
   }
   table.visible-md {
-    display: table !important;
+    display: table;
   }
   tr.visible-md {
-    display: table-row !important;
+    display: table-row;
   }
   td.visible-md,
   th.visible-md {
-    display: table-cell !important;
+    display: table-cell;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
-    display: block !important;
+    display: block;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline {
-    display: inline !important;
+    display: inline;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
-    display: inline-block !important;
+    display: inline-block;
   }
 }
 
 @media (min-width: 1200px) {
   .visible-lg {
-    display: block !important;
+    display: block;
   }
   table.visible-lg {
-    display: table !important;
+    display: table;
   }
   tr.visible-lg {
-    display: table-row !important;
+    display: table-row;
   }
   td.visible-lg,
   th.visible-lg {
-    display: table-cell !important;
+    display: table-cell;
   }
 }
 
 @media (min-width: 1200px) {
   .visible-lg-block {
-    display: block !important;
+    display: block;
   }
 }
 
 @media (min-width: 1200px) {
   .visible-lg-inline {
-    display: inline !important;
+    display: inline;
   }
 }
 
 @media (min-width: 1200px) {
   .visible-lg-inline-block {
-    display: inline-block !important;
+    display: inline-block;
   }
 }
 
 @media (max-width: 767px) {
   .hidden-xs {
-    display: none !important;
+    display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
-    display: none !important;
+    display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
-    display: none !important;
+    display: none;
   }
 }
 
 @media (min-width: 1200px) {
   .hidden-lg {
-    display: none !important;
+    display: none;
   }
 }
 
 .visible-print {
-  display: none !important;
+  display: none;
 }
 
 @media print {
   .visible-print {
-    display: block !important;
+    display: block;
   }
   table.visible-print {
-    display: table !important;
+    display: table;
   }
   tr.visible-print {
-    display: table-row !important;
+    display: table-row;
   }
   td.visible-print,
   th.visible-print {
-    display: table-cell !important;
+    display: table-cell;
   }
 }
 
 .visible-print-block {
-  display: none !important;
+  display: none;
 }
 
 @media print {
   .visible-print-block {
-    display: block !important;
+    display: block;
   }
 }
 
 .visible-print-inline {
-  display: none !important;
+  display: none;
 }
 
 @media print {
   .visible-print-inline {
-    display: inline !important;
+    display: inline;
   }
 }
 
 .visible-print-inline-block {
-  display: none !important;
+  display: none;
 }
 
 @media print {
   .visible-print-inline-block {
-    display: inline-block !important;
+    display: inline-block;
   }
 }
 
 @media print {
   .hidden-print {
-    display: none !important;
+    display: none;
   }
 }
