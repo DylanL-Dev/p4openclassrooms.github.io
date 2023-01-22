@@ -222,7 +222,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -240,7 +240,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-  color: rgba(0, 0, 0, 1);
+  color: #f3976c;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -268,8 +268,8 @@ a:hover {
   margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters [class^="col-"],
+.row.row-no-gutters [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -306,19 +306,6 @@ a:hover {
   margin: 0;
 }
 
-.barre {
-  transform: scale(1);
-  transition-property: all;
-  transition-duration: 400ms;
-  opacity: 0.7;
-}
-
-.barre:hover {
-  border-bottom: #f3976c solid 2px;
-  transform: scale(1.15);
-  opacity: 1;
-}
-
 .navbar .nav {
   padding-top: 2px;
   margin-right: -16px;
@@ -326,18 +313,18 @@ a:hover {
   z-index: 1;
 }
 
-.nav > li {
+.nav li {
   float: left;
   margin-top: 4px;
   font-size: 16px;
 }
 
-.navbar-nav .open .dropdown-menu > li > a {
+.navbar-nav .open .dropdown-menu li a {
   text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav li a:hover,
+.nav li a:focus {
   background: transparent;
 }
 
@@ -374,8 +361,8 @@ a:hover {
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
-  .nav > li .dropdown-menu a,
-  .nav > li .dropdown-menu a:hover {
+  .nav li .dropdown-menu a,
+  .nav li .dropdown-menu a:hover {
     color: #484848;
   }
   .nav-invert .site-navigation {
@@ -390,7 +377,7 @@ a:hover {
   }
   .nav-center .navbar-header,
   .nav-center .navbar-brand,
-  .nav-center .nav > li {
+  .nav-center .nav li {
     float: none;
     display: inline-block;
   }
@@ -407,7 +394,7 @@ a:hover {
   }
 }
 
-.nav > li > .dropdown a {
+.nav li .dropdown a {
   background: none;
   display: block;
   padding: 14px 15px;
@@ -972,7 +959,7 @@ h4 {
     -ms-transform: none;
   }
 
-  .nav > li {
+  .nav li {
     margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.05);
@@ -980,7 +967,7 @@ h4 {
     padding-left: 15px;
     width: 100%;
   }
-  .nav > li:hover {
+  .nav li:hover {
     background: rgba(0, 0, 0, 0.08);
   }
   .dropdown .dropdown a .caret {
